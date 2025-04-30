@@ -1,0 +1,5 @@
+site_name: Ubuntu Server Setup
+site_url: https://docs.dom.caracappa.com/ubuntu-server/
+theme:
+  name: material
+site_dir: ../site/ubuntu-server
