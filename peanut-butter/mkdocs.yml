@@ -1,0 +1,6 @@
+site_name: Peanut Butter Guide
+site_url: https://docs.dom.caracappa.com/peanut-butter/
+theme:
+  name: material
+
+site_dir: ../site/peanut-butter
