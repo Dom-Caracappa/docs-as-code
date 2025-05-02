@@ -2,28 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Dom Caracappa – Docs Hub</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body {
-      font-family: sans-serif;
-      background: #f5f5f5;
-      padding: 2rem;
-      line-height: 1.6;
-    }
-    h1 { font-size: 2.25rem; margin-bottom: 1rem; }
-    ul { padding-left: 1.5rem; }
-    a { color: #0366d6; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+  <title>Dom Caracappa | Docs Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>Welcome to My Documentation Hub</h1>
-  <p>This is where I build and showcase structured, version-controlled documentation using modern tools.</p>
-  <ul>
-    <li><a href="/peanut-butter/">🥪 How to Make a Peanut Butter Sandwich</a></li>
-    <li><a href="/ubuntu-server/">💻 Ubuntu Server Setup</a></li>
-    <li><a href="/open-hardware/">🔩 Open Source Hardware Project (coming soon)</a></li>
-  </ul>
+<body class="bg-gray-50 text-gray-800 font-sans px-6 py-12">
+  <div class="max-w-3xl mx-auto">
+    <h1 class="text-4xl font-bold mb-4">📚 Welcome to My Documentation Hub</h1>
+    <p class="text-lg mb-8">
+      This is where I build and showcase structured, version-controlled documentation using modern tools.
+    </p>
+
+    <ul class="space-y-4 text-blue-600 text-lg">
+      <li>
+        <a href="./peanut-butter/" class="hover:underline">
+          🥪 How to Make a Peanut Butter Sandwich
+        </a>
+      </li>
+      <li>
+        <a href="./ubuntu-server/" class="hover:underline">
+          🖥️ Ubuntu Server Setup
+        </a>
+      </li>
+      <li>
+        <span class="text-gray-400">🧬 Open Source Hardware Project (coming soon)</span>
+      </li>
+    </ul>
+
+    <div class="mt-12 text-sm text-gray-500">
+      <p>Maintained by Dom Caracappa · <a href="mailto:fknbab@protonmail.com" class="underline">Contact</a></p>
+    </div>
+  </div>
 </body>
 </html>
